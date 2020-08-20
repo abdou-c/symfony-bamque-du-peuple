@@ -1,0 +1,170 @@
+body{
+    background-image: url('../images/blackk.jpg');
+}
+.textcontain{
+    text-align: center;
+    position: absolute;
+    margin-left:900px;
+    width: 20%;
+}
+.textcontain span{
+
+    text-transform: uppercase;
+    display: block;
+}
+.text1{
+    color:  #3ae374;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    background: rgb(22, 20, 20);
+    position: relative;
+    animation: text 3s 1; 
+}
+.text1:hover{
+    background: rgb(22, 20, 20);
+    border:1px #3ae374 solid;
+    border-radius: 10px;
+    transition-delay: 0.2s;
+    animation: text 3s 1; 
+}
+.text2{
+    color:  #3ae374;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+@keyframes text{
+    0%{
+        color: #3ae374;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 9px;
+        margin-bottom: -40px;
+    }
+    80%{
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+        color: #3ae374;
+    }
+}
+.myClient{
+    width: 170px;
+}
+legend{
+    color: #3ae374;
+}
+label{
+    color: wheat;
+    display: block;
+    flex-direction: row;
+}
+.gestClient{
+    width: 170px;
+}
+.dataClient{
+    width: 470px;
+    height: 510px;
+    margin-left: 250px;
+    margin-top: -400px;
+}
+.informaCompte{
+    margin-left: 240px;
+    margin-top: -390px;
+    height: 300px;
+}
+.gestCompte{
+    width: 170px;
+}
+p{
+    color: wheat;
+}
+.dataCompteCourant{
+    height: 500px;
+    width: 470px;
+    margin-left: 250px;
+    margin-top: -385px;
+}
+
+.donneesClientCourant{
+    display: flex;
+}
+.informationCompte{
+    margin-left: 250px;
+    margin-top: -363px;
+}
+.dataComptebloque{
+    width: 470px;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: -385px;
+}
+.infoClient{
+    margin-left: 230px;
+    margin-top: -363px;
+    height: 360px;
+}
+select{
+    font-size: 20px;
+    width: 150px;
+}
+.compteSimple{
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+    border: 1px #3ae374 solid ;
+    border-radius: 10px;
+}
+.compteCourant{
+    font-size: 20px;
+    width: 15z0px;
+    cursor: pointer;
+    border: 1px #3ae374 solid ;
+    border-radius: 10px;
+}
+.compteBloque{
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+    border: 1px #3ae374 solid ;
+    border-radius: 10px;
+}
+input{
+    color: #3ae374;
+    background-color: black;
+    transition-delay: 0.2s;
+}
+.compteBloque:hover{
+    border-bottom: 1px #3ae374 solid ;
+    color: black;
+    background-color:  #3ae374;
+    transform: scale(1.1);
+}
+.compteCourant:hover{
+    border-bottom: 1px #3ae374 solid ;
+    color: black;
+    background-color:  #3ae374;
+    transform: scale(1.1);
+}
+.compteSimple:hover{
+    border-bottom: 1px #3ae374 solid ;
+    color: black;
+    background-color:  #3ae374;
+    transform: scale(1.1);
+}
+input:hover{
+    border-bottom: 3px #3ae374 solid ;
+    background-color:  black;
+    transform: scale(1.1);
+    color:  #3ae374;
+}
+.compteEntreprise{
+    margin-left: 200px;
+}
+.buttonSearch{
+   cursor: pointer;
+   margin-left: 130px;
+   margin-top: 10px;
+}

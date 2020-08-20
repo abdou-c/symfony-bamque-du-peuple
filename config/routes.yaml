@@ -1,0 +1,4 @@
+index:
+  path: /verifyLogin
+  controller: App\Controller\indexController::login
+  methods: POST

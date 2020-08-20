@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{asset('css/login.css')}}">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+  <h1><span>Abdourahmane Sow</span></h1><br>
+  <h3>Responsable des comptes</h3>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+      
+          <!-- Icon -->
+           <div class="fadeIn first">
+            <img src="{{asset('images/login.png')}}" id="icon" alt="User Icon" />
+          </div>
+       
+          <!-- Login Form -->
+          <form action="/verifyLogin" method="POST">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Votre adresse mail ici" required>
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="votre mot de passe ici" required>
+            <input type="submit" class="fadeIn fourth" value="Se Connecter">
+          </form>
+      
+          <!-- Remind Passowrd -->
+          <div class="contain">
+            <div class="log">
+              <i class="material-icons">warning</i>
+            </div>
+            <div class="rec">
+              <a class="underlineHover" href="#">Récuperer mon mot de passe!</a>
+              </div>
+          </div>
+            
+          
+      
+        </div>
+      </div>
+</body>
+<div class="footer">
+  <footer>&copyright Banque du Peuple 2020, Dakar Senegal</footer>
+</div>
+</html>
